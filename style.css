@@ -1,0 +1,114 @@
+*{
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+p, li{
+    font-size: 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+i{
+    color: blue;
+    padding-right: 15px;
+}
+.name h1{
+    margin: 5px 0px 0px 0px;
+
+}
+.title h5{
+    margin: 0px 0px 65px 0px;
+}
+body{
+    background-color: #f4f4f4;
+    margin: auto;
+}
+.container{
+    display: flex;
+    border: 1px solid rgb(202, 200, 200);
+    border-left: 40px solid blue;
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box-left, .box-right{
+    /* display: flex; */
+    /* border: 1px solid blue; */
+    flex-basis: 46%;
+    flex-grow: 1;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.box-right{
+    padding-left: 30px;
+}
+.profile{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.name{
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    padding: 0px;
+}
+.title{
+    text-align: center;
+}
+.heading{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top:1px solid rgb(202, 200, 200);
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.academic-content li, .project-content li{  
+    list-style: inside;
+}
+.academic-content, .project-content {  
+    margin-top: 15px;
+}
+ .content-name{
+    font-size: 15px;
+}
+.content-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.small{
+    font-weight: normal;
+}
+.box-left img{
+    margin: auto;
+    margin-top: 25px;
+    width: 150px;
+    border: 6px solid rgb(218, 215, 215);
+}
+
+
+@media screen and(max-width:767){
+    .container{
+        width: 100%;
+    }
+}
